@@ -12,7 +12,7 @@
 <body>
 <div class = "container">
     <h1>Compléter le code <span class="php-highlight">PHP</span> suivant</h1>
-    <form method="post" action="controller.php">
+    <form method="post" action="controller/controller.php">
         <div class="form">
             <p class="title">Remplir les champs ✍️</p>
         </div>
