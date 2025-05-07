@@ -1,12 +1,11 @@
 📁 projet-formulaire/
 
-├── 📁 asset/
+📁 ├── asset/         → Contient les images, polices ou autres ressources statiques.
 
-├── 📁 css/
+📁 ├── css/           → Fichiers CSS pour le style de l'application.
 
-├── 📁 controller/
+📁 ├── controller/    → Fichiers PHP servant à contrôler la logique du formulaire.
 
-└── 📄 index.php
-
+└── index.php      → Point d'entrée principal de l'application.
 
 
