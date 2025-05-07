@@ -9,10 +9,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "<p>Login : " . htmlspecialchars($login) . "</p>";
     echo "<p>Mot de passe : " . htmlspecialchars($password) . " (pour info)</p>";
     echo "<p>Admin : " . ($estAdmin ? 1 : 0) . "</p>";
-    echo "<p><a href='../index.php'>Retour</a></p>";
+    echo "<p><a href='index.php'>Retour</a></p>";
 } else {
     echo "<p>Veuillez soumettre le formulaire.</p>";
-    echo "<p><a href='../index.php'>Retour</a></p>";
+    echo "<p><a href='index.php'>Retour</a></p>";
 }
 
 ?>
