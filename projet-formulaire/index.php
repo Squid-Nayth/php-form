@@ -33,13 +33,6 @@
 
 
 <?php
-# On vérifie si le formulaire est soumis
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    # Si la checkbox est cochée, et les autres champs sont remplies : true sinon, false
-    $admin = isset($_POST['admin']) ? 1 : 0;
-
-    print "<p>Valeur à enregistrer en base : " . $admin."</p>";
-}
 ?>
 
 </body>
