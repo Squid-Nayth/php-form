@@ -17,16 +17,16 @@
             <p class="title">Remplir les champs ✍️</p>
         </div>
         <div class="form-group">
-            <label for="login">Login</label>
+            <label for="login">Login 🛜</label>
             <input type="text" id="login" name="login" placeholder="Votre login">
             <label><input type="checkbox" name="admin" value="1"> Vous êtes admin 🔐</label>
         </div>
         <div class="form-group">
-            <label for="password">Mot de passe</label>
+            <label for="password">Mot de passe 🔑</label>
             <input type="password" id="password" name="password" placeholder="Votre mot de passe">
         </div>
 
-        <button type="submit">Envoyer</button>
+        <button type="submit">Envoyer 📨 </button>
     </form>
 </div>
 
